@@ -11,6 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+use Illuminate\Support\Facades\Artisan;
+
+Route::get('/', 'NewsletterController@index');
+
+Route::get('/create', 'NewsletterController@create');
+
+
+
+Artisan::call('view:clear');

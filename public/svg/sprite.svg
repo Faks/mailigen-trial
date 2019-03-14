@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="436" viewBox="0 0 24 436">
+    <svg width="24" height="24" viewBox="0 0 24 24" id="ic_check_24px" y="0" fill="#009FFF">
+        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+    </svg>
+    <svg width="24" height="24" viewBox="0 0 24 24" id="ic_remove_18" y="24" fill="#009FFF">
+        <path d="M0 0h24v24H0z" fill="none"/>
+        <path d="M6 6h12v12H6z"/>
+    </svg>
+    <svg width="24" height="24" viewBox="0 0 24 24" id="ic_arrow_drop_down" y="48" fill="#807c8a">
+        <path d="M7 10l5 5 5-5z"/>
+    </svg>
+    <svg width="24" height="24" viewBox="0 0 24 24" y="72" fill="#00c891">
+        <path d="M0 0h24v24H0z" fill="none"/>
+        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+    </svg>
+    <svg id="ic_clear_grey" width="24" height="24" viewBox="0 0 24 24" y="96" fill="#6e6e6f">
+        <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+        <path d="M0 0h24v24H0z" fill="none"/>
+    </svg>
+    <svg id="ic_check_white" width="24" height="24" viewBox="0 0 24 24" y="120" fill="#ffffff">
+        <path d="M0 0h24v24H0z" fill="none"/>
+        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+    </svg>
+     <svg width="24" height="24" viewBox="0 0 24 24" id="ic_arrow_drop_down" y="144" fill="#ffffff">
+        <path d="M7 10l5 5 5-5z"/>
+    </svg>
+    <svg width="24" height="24" viewBox="0 0 24 24" id="cust_time" y="168" fill="#f5f5f5">
+        <g>
+     		<path d="M11.998,3c-4.967,0-9.008,4.04-9.008,9.007s4.041,9.007,9.008,9.007s9.007-4.04,9.007-9.007
+     			S16.965,3,11.998,3z M12.476,20.098v-1.175H11.52v1.175c-4.065-0.239-7.329-3.475-7.608-7.529h1.22v-0.956H3.903
+     			c0.2-4.131,3.496-7.454,7.617-7.696v1.223h0.956V3.917c4.121,0.242,7.418,3.565,7.617,7.696H18.86v0.956h1.225
+     			C19.805,16.623,16.541,19.86,12.476,20.098z"/>
+     		<path d="M11.998,0.072c-6.581,0-11.936,5.355-11.936,11.935c0,6.581,5.355,11.935,11.936,11.935
+     			s11.935-5.353,11.935-11.935C23.933,5.426,18.58,0.072,11.998,0.072z M11.998,23.05c-6.09,0-11.043-4.955-11.043-11.043
+     			c0-6.089,4.954-11.043,11.043-11.043c6.088,0,11.043,4.954,11.043,11.043C23.042,18.095,18.087,23.05,11.998,23.05z"/>
+     		<path d="M12.076,7.071c-0.306,0-0.556,0.25-0.556,0.556v3.986H7.104c-0.306,0-0.556,0.25-0.556,0.556
+     			c0,0.306,0.25,0.556,0.556,0.556h4.972c0.306,0,0.556-0.25,0.556-0.556c0-0.003-0.002-0.005-0.002-0.008
+     			c0-0.003,0.002-0.005,0.002-0.008V7.627C12.631,7.321,12.381,7.071,12.076,7.071z"/>
+     	</g>
+   </svg>
+   <svg width="24" height="24" viewBox="0 0 24 24" id="arrow_right_color_text" y="192" fill="#807c8a">
+       <polygon points="18.898,11.964 6.945,0.011 4.896,2.06 14.829,11.993 4.896,21.926 6.945,23.975 18.898,12.022
+    	18.869,11.993 "/>
+   </svg>
+   <svg width="24" height="24" viewBox="0 0 24 24" id="arrow_right_color_title" y="216" fill="#36344b">
+       <polygon points="18.898,11.964 6.945,0.011 4.896,2.06 14.829,11.993 4.896,21.926 6.945,23.975 18.898,12.022
+    	18.869,11.993 "/>
+   </svg>
+   <svg width="24" height="24" viewBox="0 0 24 24" id="ic_create" y="240" fill="#807c8a">
+       <path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/>
+   </svg>
+   <svg width="24" height="24" viewBox="0 0 24 24" id="ic_arrow_drop_down" y="264" fill="#009fff">
+       <path d="M7 10l5 5 5-5z"/>
+   </svg>
+   <svg width="24" height="24" viewBox="0 0 24 12.063" id="cust_hamburger" y="288">
+       <switch>
+           <g>
+               <path fill="#9a99a5" d="m0 0h24v3.063h-24z"/>
+               <path fill="#9a99a5" d="m0 4.5h24v3.063h-24z"/>
+               <path fill="#9a99a5" d="m0 9h24v3.063h-24z"/>
+           </g>
+       </switch>
+   </svg>
+   <svg width="24" height="24" viewBox="0 0 6.016 10.016" id="cust_drag_dots" x="0" y="312" fill="#ffffff">
+        <rect class="st0" width="2.016" height="2.016"/>
+        <rect x="4" class="st0" width="2.016" height="2.016"/>
+        <rect y="4" class="st0" width="2.016" height="2.016"/>
+        <rect x="4" y="4" class="st0" width="2.016" height="2.016"/>
+        <rect y="8" class="st0" width="2.016" height="2.016"/>
+        <rect x="4" y="8" class="st0" width="2.016" height="2.016"/>
+    </svg>
+    <svg  width="10" height="16" viewBox="0 0 9.917 15.958" style="enable-background:new 0 0 9.917 15.958;" x="0" y="345" xml:space="preserve">
+    <style type="text/css">
+    	.st0{fill:#4A9BD5;}
+    </style>
+    <g>
+    	<rect class="st0" width="1.917" height="15.958"/>
+    	<rect x="4" class="st0" width="1.917" height="15.958"/>
+    	<rect x="8" class="st0" width="1.917" height="15.958"/>
+    </g>
+    </svg>
+</svg>
