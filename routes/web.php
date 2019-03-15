@@ -13,10 +13,11 @@
 
 use Illuminate\Support\Facades\Artisan;
 
-Route::get('/', 'NewsletterController@index');
+Route::get('/', 'NewsletterController@index')->name('home');
 
 Route::get('/create', 'NewsletterController@create');
+Route::post('/store', 'NewsletterController@store');
+Route::get('/destroy/{id}', 'NewsletterController@destroy')->name('destroy');
 
 
-
-Artisan::call('view:clear');
+//Artisan::call('view:clear');

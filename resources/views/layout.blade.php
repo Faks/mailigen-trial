@@ -1,12 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>Create List</title>
-    <base href="../">
-    <link rel="stylesheet" type="text/css" href="/css/fonts.css">
-    <link rel="stylesheet" type="text/css" href="//vendor/fancybox/source/jquery.fancybox.css">
-    <link rel="stylesheet" type="text/css" href="/css/common.css">
+    @include('partial.header')
 </head>
 <body>
 <div class="FullscreenLayout">

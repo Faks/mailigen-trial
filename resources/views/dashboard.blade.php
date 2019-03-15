@@ -7,25 +7,30 @@
 @extends('layout')
 
 @section('content')
-    Dashboard
+    <h2>Dashboard</h2>
     
     <table>
         <thead>
-            <tr>
-                <th>Name</th>
-                <th>Instrument</th>
-                <th>Manage</th>
-            </tr>
+        <tr>
+            <th>Campaign title</th>
+            <th>Public list name</th>
+            <th>Manage</th>
+        </tr>
         </thead>
         <tbody>
+        @foreach($newsletters as $newsletter)
             <tr>
-                <td>John Lennon</td>
-                <td>Rhythm Guitar</td>
+                <td>{{ $newsletter->public_name }}</td>
+                <td>{{ $newsletter->publist_list_name ?? 'Not Set' }}</td>
                 <td>
                     <a href="#" role="button" class="Button Button--medium">Update</a>
-                    <a href="#" role="button" class="Button Button--medium">Delete</a>
+                    <a href="{{ route('destroy', $newsletter->id ) }}" role="button" class="Button
+                    Button--medium">Delete</a>
                 </td>
             </tr>
+        @endforeach
         </tbody>
     </table>
+    
+    {{ $newsletters->links()  }}
 @stop
