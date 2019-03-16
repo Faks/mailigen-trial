@@ -9773,7 +9773,7 @@ select {
 
 .TableView-tableWrap,
 .TableView-table {
-    border-radius: : 0.5rem;;
+    border-radius: 0.5rem;
     border-radius: 0.3rem;
 }
 
@@ -17288,7 +17288,6 @@ div.CampaignAttachments {
     float: left;
     font-size: 11px;
     font-size: 1.1rem;
-    font-weight: ;;
     font-weight: 700;
 }
 
@@ -20617,7 +20616,7 @@ a.Dashboard-heading:hover {
 }
 
 .PdfContent .AbSplit-detailed {
-    border-left: 1px solid :;
+    border-left: 1px solid;
     border-left: 1px solid #e0e0e1;
 }
 

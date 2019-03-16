@@ -21,9 +21,10 @@
         @foreach($newsletters as $newsletter)
             <tr>
                 <td>{{ $newsletter->public_name }}</td>
-                <td>{{ $newsletter->publist_list_name ?? 'Not Set' }}</td>
+                <td>{{ (!empty($newsletter->public_list_name)) ? $newsletter->public_list_name : 'Not Set' }}</td>
                 <td>
-                    <a href="#" role="button" class="Button Button--medium">Update</a>
+                    <a href="{{ route('edit', $newsletter->id ) }}" role="button" class="Button
+                    Button--medium">Update</a>
                     <a href="{{ route('destroy', $newsletter->id ) }}" role="button" class="Button
                     Button--medium">Delete</a>
                 </td>
