@@ -2,13 +2,25 @@
     <div class="FullscreenLayout-headerTitle">
         <a href="/create" role="button" class="Button Button--medium">Crate new list</a>
     </div>
+
+    <div class="FullscreenLayout-headerActions">
+        <a href="https://bitbucket.org/Faks/mailigen-trial/src/master/"
+           role="button"
+           class="Button Button--medium"
+           style="margin-left: 15px;">Bitbucket</a>
+
+        <a href="https://www.linkedin.com/in/oskars-germovs-a94b3318a/"
+           role="button"
+           class="Button Button--medium"
+           style="margin-left: 15px; margin-right: 15px;">LinkedIn</a>
+    </div>
 @stop
 
 @extends('layout')
 
 @section('content')
     <h2>Dashboard</h2>
-    
+
     <table>
         <thead>
         <tr>
@@ -32,6 +44,6 @@
         @endforeach
         </tbody>
     </table>
-    
+
     {{ $newsletters->links()  }}
 @stop

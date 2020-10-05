@@ -5,6 +5,15 @@
         <h1>Create new lists</h1>
     </div>
     <div class="FullscreenLayout-headerActions">
+        <a href="https://bitbucket.org/Faks/mailigen-trial/src/master/"
+           role="button"
+           class="Button Button--medium"
+           style="margin-left: 15px;">Bitbucket</a>
+
+        <a href="https://www.linkedin.com/in/oskars-germovs-a94b3318a/"
+           role="button"
+           class="Button Button--medium"
+           style="margin-left: 15px; margin-right: 15px;">LinkedIn</a>
         <a href="#" role="button" class="Button Button--medium">Cancel</a>
     </div>
 @stop
@@ -55,7 +64,7 @@
                     dataform.append('checked_people_subscribe', this.form.checked_people_subscribe);
                     dataform.append('checked_people_unsubscribe', this.form.checked_people_unsubscribe);
                     dataform.append('checked_people_change_preferences', this.form.checked_people_change_preferences);
-                    
+
                     axios.post('/store', dataform).then(response => {
                         this.allerros = [];
                         /**
